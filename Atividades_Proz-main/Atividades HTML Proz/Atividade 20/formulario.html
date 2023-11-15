@@ -1,0 +1,112 @@
+<html>
+    <body>
+<style>
+    html{
+        background: rgb(158, 21, 21);
+    }
+    #the{
+        color: darkgoldenrod;
+    }
+    h1{
+        color: rgb(215, 230, 11);
+    }
+    p{
+        color: rgb(215, 230, 11);
+        font-size: 25px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    label{
+        color: rgb(231, 235, 12);
+    }
+    a{
+        color: rgb(215, 230, 11);
+    }
+    button{
+        color: rgb(236, 214, 10);  
+        background-color:red; 
+        border-color:darkgoldenrod;
+    }
+</style>
+        <h1>Formulario</h1>
+        <p>Formulario</p>
+        <form>
+            <label for="login">Digite seu nome de usuario:</label>
+                <input type="text" id="the" placeholder="Digite seu usuario..." requiered>
+                    <br><br>
+            <label for="pass">Digite sua senha:</label>
+                <input type="password" id="the" placeholder="Digite sua senha..." required>
+                    <br><br>
+                    <label for="sta">Status:</label>
+                        <select name="status" id="sta" required>
+                            <option selected disabled value="">Selecione uma opção</option>
+                            <option value="ativo">Ativo</option>
+                            <option value="inativo">Inativo</option>
+                        </select>
+                            <br><br>
+            <label for="tipo">Tipo:</label>
+                <input type="radio" name="tipo" id="tec">
+                    <label for="tec">Técnico</label>
+                <input type="radio" name="tipo" id="prof">
+                    <label for="prof">Professor</label>
+                <input type="radio" name="tipo" id="aluno">
+                    <label for="aluno">Aluno</label>
+                            <br><br>
+            <label for="data">Data de nascimento:</label>
+<!--acho que data de nascimento ficou melhor-->
+                <br>
+                    <input type="date">
+                        <br><br>
+            <label for="civil">Estado civil:</label>
+                <select name="casado" id="civil">
+                    <option value="solt">Solteiro</option>
+                    <option value="casad">Casado</option>
+                    <option value="viuv">Viuvo</option>
+                    <option value="div">Divorciado</option>
+                </select>
+                    <br><br>
+            <label for="uf">UF:</label>
+                <select name="uf" id="uf">
+                    <option value="ac">AC</option>
+                    <option value="ba">BA</option>
+                    <option value="mg">MG</option>
+                    <option value="pr">PR</option>
+                    <option value="sp">SP</option>
+                </select>
+                    <br><br>
+            <label for="perfil">Perfil:</label>
+                <input type="radio" name="per" id="conv">
+                    <label for="conv">Convidado</label>
+                <input type="radio" name="per" for="adm">
+                    <label for="adm">Admnistrador</label>    
+                        <br><br>
+            <label for="obs">Observações:</label>
+                    <textarea name="obs" id="the" cols="30" rows="10" placeholder="Digite aqui..."></textarea>
+                        <br><br>
+            <label for="mod">Modulos</label>
+                        <input type="checkbox" id="buy">
+                            <label for="buy">Compras</label>
+                        <input type="checkbox" id="bibli">
+                            <label for="bibli">Biblioteca</label>
+                        <input type="checkbox" id="acade">
+                            <label for="acade">Academico</label>
+                        <input type="checkbox" id="docu">
+                            <label for="docu">Documentação</label>
+                        <input type="checkbox" id="buy">
+                            <label for="buy">Compras</label>
+                                <br><br>
+            <input type="submit" value="Cadastrar" style="color: rgb(236, 214, 10); background-color:red; border-color:darkgoldenrod">
+            <input type="submit" value="Excluir" style="color: rgb(236, 214, 10); background-color:red; border-color:darkgoldenrod">
+                <br><br>
+            <p>Seja bem-vindo(a)</p>
+                <img src="img2/china.jpg" alt="bandeira da china">
+                    <p>阿曼多先生，阿曼多先生，從早上 5:45 起我就一直在向您的私人帳戶發送照片和影片。顯示我的真實情況，因為我今天沒有去上班。對待自己最好的方式是什麼？對待自己最好的方式是什麼？從跪著水的紫色貝爾福德到博塔弗戈裝滿一袋麵粉，你壞了嗎？你要操你的屁股，操你，你的公司，你的員工，你的一袋麵粉，一切都回家，狗娘養的。我不會離開貝爾福德羅克索去裝滿麵粉的袋子，不，你這個混蛋！該死的婊子。去他媽的吧，我不是奴隸，不，你這個丟臉的人！</p>
+                        <br><br>
+            <a href="https://www.youtube.com/watch?v=Vg7vSjDCDB0&pp=ygUSYWF0cm94IHNldSBhcm1hbmRv" target="_blank">Sitação acima</a>
+                <br><br>
+            <a href="https://www.youtube.com/watch?v=hqYxIEgInJA" target="_blank">Conclusões do programador</a>
+            <hr>
+            <a href="../Menu/menu1011.html"><button>Menu</button></a>
+            <!--<a href=""><button>Proximo</button></a>-->
+        </form>
+    </body>
+</html>
