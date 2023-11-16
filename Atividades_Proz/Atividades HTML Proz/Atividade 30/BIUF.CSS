@@ -1,0 +1,54 @@
+html{
+    background-color: indigo;
+    text-align: center;
+    border-style: outset;
+    border-color: yellow;
+    border-radius: 30px;
+    border-width: 10px;
+    border-right: 34px;
+    border-left: 34px;
+    padding: 20%;
+}
+h1{
+    color: springgreen;
+    font-family: sans-serif;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: crimson;
+    font-size: 30px;
+    color:blue;
+    align-items: center;
+}
+img{
+    border-color: rgb(255, 145, 0);
+    border-style:dashed;
+    border-radius: 10px;
+}
+label{
+    color: yellow;
+}
+.palhaco{
+    color: gold;
+    font-style: italic;
+}
+.honk{
+    background-color:mediumvioletred;
+}
+.honk2{
+    background-color:mediumvioletred;
+}
+.honk3{
+    background-color: mediumblue;
+}
+#eneias{
+    width: 100px;
+    height: 180px;
+    float: left;
+}
+#bozo{
+    width: 350px;
+}
+#vrum{
+    color: rgb(255, 0, 51);
+}
