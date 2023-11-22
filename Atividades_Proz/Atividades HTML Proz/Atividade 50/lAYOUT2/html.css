@@ -1,0 +1,47 @@
+html{
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    "head head"
+    "main aside";
+}
+header{
+    background-color:darkkhaki;
+    grid-area: head;
+    width: auto;
+    height: 70;
+    text-align: center;
+}
+main{
+    background-color:teal;
+    grid-area: main;
+    width: 1150px;
+    height: auto;
+    border-style: solid;
+    border-color: darkslategrey;
+    border-width: 2px;
+}
+aside{
+    background-color: darkslategrey;
+    grid-area: aside;
+    width: 200px;
+    height: auto;
+}
+.mainedit{
+    background-color: rgb(100, 100, 100);
+    border-style: none;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    font-size: large;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    padding:5%;
+
+    
+
+}

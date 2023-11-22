@@ -1,0 +1,15 @@
+.item{
+    border: 10px double rgb(6, 85, 85) ;
+    background-color: teal;
+    font-size: 30px;
+    font-family: cursive;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgb(14, 66, 66);
+    padding: 10px;
+}
