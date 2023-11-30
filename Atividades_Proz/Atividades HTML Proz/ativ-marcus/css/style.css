@@ -1,0 +1,39 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightgreen;
+    
+}
+header{
+    text-align: center;
+    background-color:olivedrab;
+    justify-content: center;
+}
+button{
+    background-color: seagreen;
+    border-style:none ;
+    border-radius: 200px;
+    padding: 5%;
+    font-size: x-large;
+    
+
+}
+#chinelinho{
+    width: 200px;
+    border-style: none;
+    border-radius: 20px;
+}
+#sapatinho{
+    width: 200px;
+    border-style: none;
+    border-radius: 20px;
+}
+.produto{
+    background-color: darkolivegreen;
+    text-align: center;
+    align-items: center;
+}
+.produtos{
+    display: grid;
+    grid-template-columns:auto auto;
+    gap: 20px;
+}
